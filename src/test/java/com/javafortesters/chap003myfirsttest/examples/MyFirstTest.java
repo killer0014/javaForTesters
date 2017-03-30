@@ -30,7 +30,7 @@ public class MyFirstTest {
     @Test
     public void canAddTwoPlusTwoCheckForFive() {
         int answer = 2 + 2;
-        assertEquals("2+2=4", 5, answer);
+        assertEquals("2+2=4", 4, answer);
     }
 }
 
