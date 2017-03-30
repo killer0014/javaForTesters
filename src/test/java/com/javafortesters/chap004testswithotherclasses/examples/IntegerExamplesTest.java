@@ -1,8 +1,8 @@
 package com.javafortesters.chap004testswithotherclasses.examples;
 
-import com.sun.tools.jdi.IntegerValueImpl;
+//import com.sun.tools.jdi.IntegerValueImpl;
 import org.junit.Test;
-import sun.jvm.hotspot.jdi.IntegerTypeImpl;
+//import sun.jvm.hotspot.jdi.IntegerTypeImpl;
 
 import static org.junit.Assert.assertEquals;
 
