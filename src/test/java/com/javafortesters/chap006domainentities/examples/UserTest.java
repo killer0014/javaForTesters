@@ -20,7 +20,7 @@ public class UserTest {
 	assertEquals("default username expected", "username", user.getUsername());
 	assertEquals("default password expected", "password", user.getPassword());
     }
-
+// page 72 of book java4testers
     @Test
     public void changeFieldsToPublic() {
 	User auser = new User();
