@@ -21,4 +21,11 @@ public class UserTest {
 	assertEquals("default password expected", "password", user.getPassword());
     }
 
+    @Test
+    public void changeFieldsToPublic() {
+	User auser = new User();
+	auser.username = "bob";
+	assertEquals("not default username", "bob", auser.username);
+    }
+
 }

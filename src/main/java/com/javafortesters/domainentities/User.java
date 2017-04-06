@@ -2,8 +2,10 @@ package com.javafortesters.domainentities;
 
 public class User {
 
-    private String username;
-    private String password;
+    public String username;
+    public String password;
+    //private String username;
+    //private String password;
 
     public User() {
 	username = "username";
