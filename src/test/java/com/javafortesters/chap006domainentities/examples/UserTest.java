@@ -20,7 +20,8 @@ public class UserTest {
 	assertEquals("default username expected", "username", user.getUsername());
 	assertEquals("default password expected", "password", user.getPassword());
     }
-// page 72 of book java4testers
+
+    // page 72 of book java4testers
     @Test
     public void changeFieldsToPublic() {
 	User auser = new User();
@@ -37,6 +38,17 @@ public class UserTest {
         assertEquals("given password expected",
                 "pA55w0rD",
                 user.getPassword());
+        
     }
+        
+        @Test
+        public void canSetPasswordAfterConstructed(){
+        User user = new User();
+        user.setPassword("PaZZwor6");
+        assertEquals("setter password expected",
+        "PaZZwor6",
+        user.getPassword());
+        }
+    
 
 }
